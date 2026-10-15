@@ -1,0 +1,13 @@
+{
+  "name": "dume-bulk-9router",
+  "version": "1.0.0",
+  "description": "Bulk-create Dume.ai accounts, auto-harvest tokens, and serve them to 9Router as an OpenAI-compatible pool.",
+  "type": "commonjs",
+  "main": "src/adapter.js",
+  "scripts": {
+    "create": "node src/cli.js create",
+    "connect": "node src/cli.js connect",
+    "serve": "node src/cli.js serve"
+  },
+  "license": "MIT"
+}

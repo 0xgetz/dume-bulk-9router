@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="dume-bulk-9router icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0b0b12"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)"/>
+  <path d="M26 82 C 42 34, 54 34, 64 64 C 74 94, 86 94, 102 40"
+        fill="none" stroke="url(#wave)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="26" cy="82" r="8" fill="url(#node)"/>
+  <circle cx="102" cy="40" r="8" fill="url(#node)"/>
+</svg>

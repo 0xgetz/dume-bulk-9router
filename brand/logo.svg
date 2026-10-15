@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" width="520" height="128" role="img" aria-label="dume-bulk-9router">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="#0b0b12"/>
+  <g transform="translate(18,18)">
+    <circle cx="46" cy="46" r="42" fill="none" stroke="url(#g)" stroke-width="6" opacity="0.35"/>
+    <path d="M22 64 C 34 24, 42 24, 46 46 C 50 68, 58 68, 70 28"
+          fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="22" cy="64" r="7" fill="url(#g2)"/>
+    <circle cx="70" cy="28" r="7" fill="url(#g2)"/>
+  </g>
+  <text x="152" y="57" font-family="Inter, Segoe UI, Roboto, sans-serif" font-size="38" font-weight="700" fill="#111827">dume<tspan fill="#8b5cf6">-bulk</tspan></text>
+  <text x="152" y="94" font-family="Inter, Segoe UI, Roboto, sans-serif" font-size="24" font-weight="500" fill="#6b7280">→ 9router pool</text>
+</svg>
